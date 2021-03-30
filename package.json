@@ -1,5 +1,5 @@
 {
-  "name": "site",
+  "name": "XtremeDevX",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -34,5 +34,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "The official portfolio site for Tejas Ravishankar",
+  "main": "index.js",
+  "repository": "https://github.com/fullstackslayer/XtremeDevX",
+  "author": "Aaryaman Maheshwari <aaryaman2007@outlook.com>",
+  "license": "Apache License 2.0"
 }

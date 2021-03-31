@@ -8,6 +8,25 @@
 
   color: var(--on-bg);
   background-color: var(--bg);
+
+  background: url("https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjF8fHRleHR1cmUlMjBkYXJrfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.HomeBanner__sub {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  backdrop-filter: blur(20px);
 }
 
 .HomeBanner__profilepic {
@@ -74,10 +93,10 @@
   }
 
   .HomeBanner__title {
-      font-size: 2.5rem;
+    font-size: 2.5rem;
   }
 
   .HomeBanner {
-      padding: 20px;
+    padding: 20px;
   }
 }

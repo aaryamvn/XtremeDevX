@@ -4,8 +4,8 @@ import './HomeBanner.css'
 const HomeBanner = () => {
     return (
         <div className="HomeBanner">
-            <div className="HomeBanner__sub">
-                <div className="fd-row">
+            <div className="HomeBanner__sub container">
+                <div className="fd-col">
                     <img src="https://avatars.githubusercontent.com/u/63039748?v=4" alt="" draggable="false" className="HomeBanner__profilepic" />
                     <h1 className="HomeBanner__title">
                         I'm the <span className="emphasis-1">XtremeDevX</span>.

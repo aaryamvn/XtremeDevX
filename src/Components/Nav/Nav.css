@@ -1,0 +1,14 @@
+.nav__back_btn {
+  color: var(--minimal);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav__back_btn i {
+  margin-right: 10px;
+  transition: all 0.3s;
+}
+
+.nav__back_btn:hover i {
+  margin-right: 15px;
+}

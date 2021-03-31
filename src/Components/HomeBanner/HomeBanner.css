@@ -15,6 +15,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  overflow: hidden;
 }
 
 .HomeBanner__sub {
@@ -30,15 +31,15 @@
 }
 
 .HomeBanner__profilepic {
-  height: 13vw;
-  width: 13vw;
+  height: 170px;
+  width: 170px;
   margin-bottom: 20px;
   border-radius: 3vw;
 }
 
 .HomeBanner__title {
   font-weight: 600;
-  font-size: 5vw;
+  font-size: 3.2rem;
 }
 
 .HomeBanner__location {
@@ -60,8 +61,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--on-primary);
-  text-decoration: none;
+  color: var(--on-primary) !important;
+  text-decoration: none !important;
   margin-right: 15px;
   margin-top: 15px;
   color: var(--minimal);
@@ -90,13 +91,5 @@
 @media only screen and (max-width: 550px) {
   .HomeBanner__profilepic {
     display: none;
-  }
-
-  .HomeBanner__title {
-    font-size: 2.5rem;
-  }
-
-  .HomeBanner {
-    padding: 20px;
   }
 }

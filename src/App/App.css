@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", "Franklin Gothic Medium", "Arial Narrow", "Arial",
+    "sans-serif";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body, html {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+:root {
+  --bg: #0f0f0f;
+  --on-bg: rgb(228, 228, 228);
+  --primary: #6930c3;
+  --on-primary: ;
+  --secondary: #64dfdf;
+  --on-secondary: ;
+  --minimal: #a8a7a7;
+}
+
+.emphasis-1 {
+  color: var(--primary);
+}
+
+.fd-row {
+  display: flex;
+  flex-direction: column;
+}

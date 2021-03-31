@@ -1,0 +1,83 @@
+.HomeBanner {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+
+  color: var(--on-bg);
+  background-color: var(--bg);
+}
+
+.HomeBanner__profilepic {
+  height: 13vw;
+  width: 13vw;
+  margin-bottom: 20px;
+  border-radius: 3vw;
+}
+
+.HomeBanner__title {
+  font-weight: 600;
+  font-size: 5vw;
+}
+
+.HomeBanner__location {
+  margin-bottom: 10px;
+  color: var(--secondary);
+}
+
+.HomeBanner__content {
+  font-size: 18.3px;
+}
+
+.HomeBanner__links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.HomeBanner__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--on-primary);
+  text-decoration: none;
+  margin-right: 15px;
+  margin-top: 15px;
+  color: var(--minimal);
+}
+
+.HomeBanner__link-icon {
+  font-size: 20px;
+  transition: all 0.4s;
+}
+
+.HomeBanner__link-text .fa-arrow-right {
+  font-size: 15px;
+  margin-left: 7px;
+  margin-top: 2px;
+  transition: all 0.2s;
+}
+
+.HomeBanner__link-text:hover .fa-arrow-right {
+  margin-left: 10px;
+}
+
+.HomeBanner__link-icon:hover {
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 550px) {
+  .HomeBanner__profilepic {
+    display: none;
+  }
+
+  .HomeBanner__title {
+      font-size: 2.5rem;
+  }
+
+  .HomeBanner {
+      padding: 20px;
+  }
+}

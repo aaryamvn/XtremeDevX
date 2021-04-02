@@ -3,6 +3,7 @@
 .about {
   min-height: 100vh;
   padding-top: 20px;
+  user-select: none;
 }
 
 .about__snippet_container {
@@ -22,7 +23,7 @@
   overflow-y: scroll;
   max-height: 60vh;
   box-shadow: 10px 15px 50px var(--box-shadow-color);
-  background-color: var(--primary);
+  background-color: #30283b;
 }
 
 .about__snippet_header {
@@ -65,20 +66,20 @@
 }
 
 .about__snippet-key {
-  color: #c1bec7;
+  color: #f1fa8c;
   font-weight: bold;
 }
 
 .about__snippet-value {
-  color: #29f15b;
+  color: #50fa7b;
 }
 
 .about__snippet-value--bool {
-  color: #ca4c94;
+  color: #ff79c6;
 }
 
 .about__snippet-value--num {
-  color: rgb(158, 158, 255);
+  color: #bd93f9;
 }
 
 .about__snippet-array-brackets-nested {

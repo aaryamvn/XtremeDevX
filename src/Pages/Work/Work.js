@@ -8,7 +8,7 @@ const Work = () => {
     const [repos, setRepos] = useState([])
     useEffect(() => {
         setRepos(data)
-    })
+    }, [])
     return (
         <div className="work">
             <div className="container">

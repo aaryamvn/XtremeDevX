@@ -6,7 +6,7 @@
   justify-content: center;
   user-select: none;
 
-  color: var(--on-bg);
+  color: var(--on-bg-img);
   background-color: var(--bg);
 
   background: url("https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjF8fHRleHR1cmUlMjBkYXJrfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60")

@@ -1,7 +1,7 @@
 import './App.css';
 import Home from '../Pages/Home/Home'
 import About from '../Pages/About/About'
-
+import Work from '../Pages/Work/Work';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
@@ -17,7 +17,7 @@ function App() {
             <About />
           </Route>
           <Route exact path="/work">
-            {/* <Work /> */}
+            <Work />
           </Route>
           <Route path="*">
             <h1>Page not found!</h1>

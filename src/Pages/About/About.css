@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
 
 .about {
   min-height: 100vh;
@@ -17,16 +17,16 @@
   position: relative;
   padding: 15px;
   border-radius: 15px;
-  background-color: #1c1f2b;
-  font-family: 'Fira Code', monospace;
+  font-family: "Fira Code", monospace;
   font-size: 15px;
   width: 75vw;
   overflow-y: scroll;
   max-height: 60vh;
+  box-shadow: 1px 1px 50px rgba(153, 153, 153, 0.5);
 }
 
 .about__snippet_header {
-    position: fixed;  
+  position: fixed;
 }
 
 .about__snippet_header-actions span {
@@ -38,17 +38,17 @@
 }
 
 .about__snippet_header-actions span:nth-child(1) {
-  background-color: red;
+  background-color: #ff0000;
   left: 0px;
 }
 
 .about__snippet_header-actions span:nth-child(2) {
-  background-color: orange;
+  background-color: #ffa500;
   left: 30px;
 }
 
 .about__snippet_header-actions span:nth-child(3) {
-  background-color: rgb(21, 206, 67);
+  background-color: #15ce43;
   left: 60px;
 }
 
@@ -65,16 +65,16 @@
 }
 
 .about__snippet-key {
-  color: #A98CEA;
+  color: #6f4eb6;
   font-weight: bold;
 }
 
 .about__snippet-value {
-  color: #50fa7b;
+  color: #4dad65;
 }
 
 .about__snippet-value--bool {
-  color: #ff79c6;
+  color: #ca4c94;
 }
 
 .about__snippet-value--num {

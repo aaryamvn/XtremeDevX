@@ -1,0 +1,37 @@
+.project_card {
+  width: 350px;
+  margin: 10px;
+  background: inherit;
+  box-shadow: 20px 20px 50px rgba(153, 153, 153, 0.5);
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.project_card:hover {
+  box-shadow: 0 0 50px rgba(153, 153, 153, 0.5);
+}
+
+.project__card_title {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.card-footer {
+  border: none !important;
+  background: inherit !important;
+}
+
+
+.project__card_collaborators {
+    position: relative;
+}
+
+.project__card_collaborator {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff;
+}

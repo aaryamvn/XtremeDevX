@@ -1,0 +1,12 @@
+.work {
+  min-height: 100vh;
+  padding-top: 20px;
+  user-select: none;
+}
+
+.work__project_cards {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

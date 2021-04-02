@@ -22,6 +22,7 @@
   overflow-y: scroll;
   max-height: 60vh;
   box-shadow: 10px 15px 50px var(--box-shadow-color);
+  background-color: var(--primary);
 }
 
 .about__snippet_header {
@@ -64,12 +65,12 @@
 }
 
 .about__snippet-key {
-  color: #6f4eb6;
+  color: #c1bec7;
   font-weight: bold;
 }
 
 .about__snippet-value {
-  color: #4dad65;
+  color: #29f15b;
 }
 
 .about__snippet-value--bool {
@@ -77,7 +78,7 @@
 }
 
 .about__snippet-value--num {
-  color: rgb(94, 94, 163);
+  color: rgb(158, 158, 255);
 }
 
 .about__snippet-array-brackets-nested {

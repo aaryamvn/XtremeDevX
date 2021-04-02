@@ -3,7 +3,7 @@ import './ProjectCard.css'
 
 const ProjectCard = (props) => {
     return (
-        <div className="project_card card" onClick={() => window.location.href = props.link}>
+        <div className={props.title === "Electric" ? "project_card card project_card__border" : "project_card card"} onClick={() => window.location.href = props.link}>
             <div class="card-body">
                 <h1 className="project__card_title card-title">{props.title}</h1>
                 <p className="project__card_description card-text">

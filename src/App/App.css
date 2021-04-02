@@ -23,14 +23,15 @@ html {
 }
 
 :root {
-  --bg: #e4e4e4;
-  --on-bg: #0f0f0f;
+  --bg: #0e0b0b;
+  --on-bg: #fff;
   --on-bg-img: #e4e4e4;
   --primary: #6930c3;
   --on-primary: ;
   --secondary: #64dfdf;
   --on-secondary: ;
-  --minimal: #1a1818;
+  --minimal: #9b9b9b;
+  --box-shadow-color: rgba(0, 0, 0, 0.5);
 }
 
 .emphasis-1 {
@@ -55,6 +56,6 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #bcbdc4;
+  background: #171718;
   border-radius: 10px;
 }

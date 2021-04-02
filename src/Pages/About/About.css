@@ -3,7 +3,6 @@
 .about {
   min-height: 100vh;
   padding-top: 20px;
-  user-select: none;
 }
 
 .about__snippet_container {
@@ -22,7 +21,7 @@
   width: 75vw;
   overflow-y: scroll;
   max-height: 60vh;
-  box-shadow: 1px 1px 50px rgba(153, 153, 153, 0.5);
+  box-shadow: 10px 15px 50px var(--box-shadow-color);
 }
 
 .about__snippet_header {

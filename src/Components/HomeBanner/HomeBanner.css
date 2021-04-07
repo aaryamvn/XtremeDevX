@@ -93,3 +93,8 @@
     display: none;
   }
 }
+
+.uname {
+  margin-left: 5px;
+  font-size: 20px;
+}

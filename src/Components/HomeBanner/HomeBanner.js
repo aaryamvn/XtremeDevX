@@ -11,9 +11,10 @@ const HomeBanner = () => {
                         I'm the <span className="emphasis-1">XtremeDevX</span>.
                     </h1>
                     <span className="HomeBanner__location">
-                        <i className="fal fa-map-marker-alt"></i> Bangalore, India
+                        <i className="fal fa-user"></i> <span className="uname">Tejas Ravishankar</span>
+
                     </span>
-                    <p className="HomeBanner__content">A passionate 14 year old full stack developer.</p>
+                    <p className="HomeBanner__content">A passionate 14 year old Rust, Python, and Flutter developer.</p>
                     <div className="HomeBanner__links">
                         <a className="HomeBanner__link HomeBanner__link-icon" href="https://twitter.com/XtremeDevX" target="_blank" rel="noreferrer"><i className="fab fa-twitter"></i></a>
                         <a className="HomeBanner__link HomeBanner__link-icon" href="https://www.linkedin.com/in/tejas-ravishankar-3a8898209/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a>

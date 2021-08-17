@@ -14,7 +14,7 @@ const HomeBanner = () => {
                         <i className="fal fa-user"></i> <span className="uname">Tejas Ravishankar</span>
 
                     </span>
-                    <p className="HomeBanner__content">A passionate 14 year old Rust, Python, and Flutter developer.</p>
+                    <p className="HomeBanner__content">A passionate 15 year old Rust, Python, and Flutter developer.</p>
                     <div className="HomeBanner__links">
                         <a className="HomeBanner__link HomeBanner__link-icon" href="https://twitter.com/XtremeDevX" target="_blank" rel="noreferrer"><i className="fab fa-twitter"></i></a>
                         <a className="HomeBanner__link HomeBanner__link-icon" href="https://www.linkedin.com/in/tejas-ravishankar-3a8898209/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a>
